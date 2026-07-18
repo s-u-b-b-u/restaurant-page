@@ -1,7 +1,9 @@
 import "./styles.css" 
 import "./menu-page.css"
+import "./contact-page.css"
 import { homePage  } from "./home-page.js";
 import { menuPage } from "./menu-page.js";
+import { contactPage } from "./contact-page.js";
 
 const menuTab = document.querySelector("#menu");
 const homeTab = document.querySelector("#home");
@@ -23,5 +25,5 @@ homeTab.addEventListener('click', () => {
 })
 
 contactTab.addEventListener('click', () => {
-    content.innerHTML = ``;
+    content.innerHTML = contactPage();
 })
