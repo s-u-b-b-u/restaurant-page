@@ -7,7 +7,6 @@ export function homePage() {
 			<div class="hero-content">
 				<p>Welcome Beautiful!!</p>
 				<p class="tagline">Ready To Visit Again????</p>
-				<button id="explore-button">Explore Menu</button>
 			</div>
 		</div> 
     `;

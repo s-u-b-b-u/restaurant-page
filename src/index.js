@@ -1,5 +1,7 @@
+import "./styles.css" 
+import "./menu-page.css"
 import { homePage  } from "./home-page.js";
-import "./styles.css"
+import { menuPage } from "./menu-page.js";
 
 const menuTab = document.querySelector("#menu");
 const homeTab = document.querySelector("#home");
@@ -12,8 +14,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 menuTab.addEventListener('click', () => {
-    content.innerHTML = ``;
+    content.innerHTML = menuPage();
 })
+
 
 homeTab.addEventListener('click', () => {
     content.innerHTML = homePage();
