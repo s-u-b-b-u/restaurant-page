@@ -1,14 +1,45 @@
+
 .contact-content {
     margin-top: 5vh;
     margin-left: 10vw;
 }
 
 .heading p:first-child {
+    font-family: 'Stack Sans Notch', 'Times New Roman';
     font-size: max(20px, 4vw);
     margin: 0;
 }
 
-.heading p:last-child {
-    font-size: max(15px, 2vw);
+.contact-details {
+    margin-top: 15vh;
+
+}
+
+.instagram,
+.email,
+.x {
+    width: clamp(400px, 40%, 500px);
+    height: auto;
+
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    background-color: hsl(0, 0%, 5%);
+
+    border-radius: 14px;
+
+    transition: all 200ms;
+
+    margin-bottom: 2rem;
+
+
+}
+
+.instagram:hover,
+.email:hover, 
+.x:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 80px rgb(102, 100, 100);
     color: yellow;
 }
