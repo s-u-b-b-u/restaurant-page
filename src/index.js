@@ -1,6 +1,6 @@
-import "./styles.css" 
-import "./menu-page.css"
-import "./contact-page.css"
+import "./styles/styles.css" 
+import "./styles/menu-page.css"
+import "./styles/contact-page.css"
 import { homePage  } from "./home-page.js";
 import { menuPage } from "./menu-page.js";
 import { contactPage } from "./contact-page.js";
